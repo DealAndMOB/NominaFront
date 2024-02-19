@@ -1,0 +1,62 @@
+body{
+    background-color: #0000000e;
+}
+
+.navbar{
+    box-shadow: 0 3px 4px #365f912d;
+}
+
+.input{
+    width: 100%;
+    box-shadow: 0 2px 2px #00000075;
+}
+
+.btn{
+    background-color: #365f91c5;
+    border: 2.5px solid rgba(0, 0, 0, 0.322);
+}
+
+.bg-forms{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #0000004b;
+}
+
+table {
+    background-color: #ffffffec;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid #ffffff;
+}
+.tabla-responsive-Empleo{
+    width: 100%;
+    overflow: auto;
+    height: 15em;
+}
+
+.tabla-responsive-Empleado{
+    width: 100%;
+    overflow: auto;
+    height: 35em;
+}
+
+th, td {
+    padding: 0.25rem;
+    text-align: center;
+    border: 1px solid #0000000e;
+   
+}
+
+.tabla-forms thead th {
+    position: sticky;
+    top: 0;
+    background-color: #5980af;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.tabla-forms{
+    overflow: auto;
+}
