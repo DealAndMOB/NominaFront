@@ -9,6 +9,12 @@ body{
 .input{
     width: 100%;
     box-shadow: 0 2px 2px #00000075;
+    height: 2em;
+}
+
+.btn{
+    background-color: #365f91c5;
+    border: 2.5px solid rgba(0, 0, 0, 0.322);
 }
 
 .btn{
@@ -27,13 +33,13 @@ table {
     border-collapse: separate;
     border-spacing: 0;
     border-radius: 10px;
-    overflow: hidden;
     border: 3px solid #ffffff;
 }
+
 .tabla-responsive-Empleo{
     width: 100%;
     overflow: auto;
-    height: 15em;
+    height: 12em;
 }
 
 .tabla-responsive-Empleado{
@@ -59,4 +65,27 @@ th, td {
 
 .tabla-forms{
     overflow: auto;
+}
+
+@media (max-width: 600px) {
+    .tabla-responsive-Empleado{
+        height: 25em;
+    }
+
+    .tabla-responsive-Empleo{
+        height: 17em;
+        
+    }
+
+    .bg-forms-tablas{
+        width: 95%;
+        margin-top: 20px;
+        box-shadow: none;
+        padding: 0%;
+    }
+
+    
+    .row{
+        justify-content: center;
+    }
 }
